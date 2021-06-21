@@ -2,16 +2,15 @@ package fr.tyrolium.maxime.bot;
 
 import net.dv8tion.jda.api.AccountType;
 import net.dv8tion.jda.api.JDABuilder;
-import net.dv8tion.jda.api.entities.MessageActivity;
 
 import javax.security.auth.login.LoginException;
 
 public class main {
     public static void main(String[] argv) throws LoginException {
         System.out.println("coucou");
-        JDABuilder builder = new JDABuilder(AccountType.*bot*);
-        builder.setToken(argv[1]);
-        builder.addEventListeners(new MessageActivity.test());
+        JDABuilder builder = new JDABuilder(AccountType.BOT);
+        builder.setToken(stock.token);
+        builder.addEventListeners(new test());
         builder.build();
     }
 }
