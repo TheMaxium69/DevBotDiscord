@@ -9,16 +9,16 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.*;
+import java.util.Locale;
 
 public class main {
     public static void main(String[] argv) throws LoginException, IOException {
         JDABuilder builder = new JDABuilder(AccountType.BOT);
-        builder.setToken(stock.tokenServ);
+        builder.setToken(stock.token);
         builder.addEventListeners(new test());
         builder.setActivity(Activity.playing("TyroServ.fr | ONLINE"));
         builder.build();
         System.out.println("Le bot c'est bien lanceer");
-
 
         String onlineServ = get("http://tyrolium.fr/Contenu/Php/api/status.php");
         System.out.println(onlineServ);
