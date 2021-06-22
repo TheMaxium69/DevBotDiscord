@@ -1,6 +1,6 @@
-fr/tyrolium/maxime/bot/main.java
- fr.tyrolium.maxime.bot.main
 fr/tyrolium/maxime/bot/stock.java
  fr.tyrolium.maxime.bot.stock
+fr/tyrolium/maxime/bot/main.java
+ fr.tyrolium.maxime.bot.main
 fr/tyrolium/maxime/bot/test.java
  fr.tyrolium.maxime.bot.test

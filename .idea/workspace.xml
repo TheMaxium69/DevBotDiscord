@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fadbe498-69a5-4321-acc9-b6559fa03eb9" name="Default Changelist" comment="" />
+    <list default="true" id="fadbe498-69a5-4321-acc9-b6559fa03eb9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/TestBotDiscord/build/classes/java/main/fr/tyrolium/maxime/bot/stock.class" beforeDir="false" afterPath="$PROJECT_DIR$/TestBotDiscord/build/classes/java/main/fr/tyrolium/maxime/bot/stock.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
