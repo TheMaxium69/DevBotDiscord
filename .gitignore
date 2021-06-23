@@ -4,6 +4,7 @@ bin-release/
 private/
 [Oo]bj/
 [Bb]in/
+bin/
 
 # Other files and folders
 .settings/
